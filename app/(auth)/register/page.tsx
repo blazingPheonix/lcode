@@ -3,8 +3,8 @@ import React from 'react'
 
 const page = () => {
   return (
-      <div>
-          <RegisterForm></RegisterForm>
+      <div className='flex justify-center items-center min-h-svh '>
+      <RegisterForm></RegisterForm>
     </div>
   )
 }

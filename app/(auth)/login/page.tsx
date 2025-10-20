@@ -7,7 +7,7 @@ const page = async () => {
   await requireUnauth(); 
 
   return (
-      <div>
+      <div className="flex justify-center items-center min-h-svh">
           <LoginForm></LoginForm>
     </div>
   )

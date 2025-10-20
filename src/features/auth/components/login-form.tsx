@@ -70,7 +70,7 @@ export function LoginForm() {
     const isPending = form.formState.isSubmitting;
 
     return (
-        <div className="flex flex-col gap-6">
+        <div className="flex flex-col gap-6 md:min-w-[35%]">
             <Card>
                 <CardHeader className="text-center">
                     <CardTitle>
